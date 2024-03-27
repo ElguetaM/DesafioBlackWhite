@@ -1,0 +1,35 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: #dadada;
+}
+
+h1 {
+  font-family: "Economica", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+}
+
+#form {
+  display: block;
+  /* justify-content: middle; */
+}
+
+
+.btn {
+  color: #fff;
+  background-color: #000;
+  margin: 15px 0px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border-color: #fff;
+}

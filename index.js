@@ -30,6 +30,10 @@ app.get("/load", async (req, res) => {
   }
 });
 
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/404.html"));
+})
+
 app.listen(PORT, () =>
   console.log(`Server running on port http://localhost:${PORT}`)
 );
